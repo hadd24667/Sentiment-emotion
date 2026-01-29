@@ -87,10 +87,18 @@ All EDA is produced in the notebook (plots generated via matplotlib).
 
 * 😂, ❤️, 🤣, 😭, 👏, …
 
-> Suggested screenshots (if you want to add repo assets):
->
-> * `assets/eda_goemotions_length.png`
-> * `assets/eda_goemotions_label_freq.png`
+GoEmotions (Train)
+Label Distribution (Long-tail)
+<p align="center"> <img src="https://raw.githubusercontent.com/hadd24667/Sentiment-emotion/main/assets/GE_TopLabel.png" width="650"> </p> <p align="center"> <em>GoEmotions shows a severe long-tail label distribution, where a small number of emotions dominate the dataset.</em> </p>
+Text Length — Characters
+<p align="center"> <img src="https://raw.githubusercontent.com/hadd24667/Sentiment-emotion/main/assets/GE_Character_len_distribution.png" width="650"> </p> <p align="center"> <em>Character-level length distribution of GoEmotions texts.</em> </p>
+Text Length — Words
+<p align="center"> <img src="https://raw.githubusercontent.com/hadd24667/Sentiment-emotion/main/assets/GE_Word_Count.png" width="650"> </p> <p align="center"> <em>Word-count distribution indicates that most samples are short and concise, typical of social media text.</em> </p>
+TweetEval (Train)
+Text Length — Characters
+<p align="center"> <img src="https://raw.githubusercontent.com/hadd24667/Sentiment-emotion/main/assets/TE_Char_len.png" width="650"> </p> <p align="center"> <em>TweetEval tweets are generally longer than GoEmotions samples in terms of character length.</em> </p>
+Label Distribution
+<p align="center"> <img src="https://raw.githubusercontent.com/hadd24667/Sentiment-emotion/main/assets/TE_Label_distribution.png" width="650"> </p> <p align="center"> <em>Class distribution for TweetEval sentiment classification (negative / neutral / positive).</em> </p>
 
 ---
 
